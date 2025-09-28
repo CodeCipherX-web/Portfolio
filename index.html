@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teddy Alvin | Portfolio</title>
+
+  <!-- ✅ CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ✅ Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- ✅ Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ================== Navigation ================== -->
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">Teddy<span style="color:var(--secondary-color)">Alvin</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Timeline</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="mode-toggle"><i class="fas fa-moon"></i></button>
+    </div>
+  </nav>
+
+  <!-- ================== Hero Section ================== -->
+  <section id="hero" class="hero">
+    <canvas id="bg-canvas"></canvas>
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="typing"></span></h1>
+      <p class="tagline">Turning Ideas Into Code ✨</p>
+      <p>Frontend Developer | Designer | Creative Coder</p>
+      <div class="hero-buttons">
+        <a href="#skills" class="btn">Explore My Work</a>
+        <a href="Teddy_Alvin_CV.pdf" download class="btn secondary"><i class="fa-solid fa-download"></i> Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== About Section ================== -->
+  <section id="about">
+    <div class="container about-container">
+      <img src="me.png" alt="Teddy Alvin Profile Picture.">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate developer who loves creating visually stunning and user-friendly web experiences.
+        With a mix of design flair and coding precision, I bring ideas to life on the web.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================== Stats Section ================== -->
+  <section id="stats">
+    <div class="container stats-container">
+      <div class="stat">
+        <h3>10+</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div class="stat">
+        <h3>5+</h3>
+        <p>Happy Clients</p>
+      </div>
+      <div class="stat">
+        <h3>3+</h3>
+        <p>Years Experience</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Skills Section ================== -->
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill"><i class="fa-brands fa-html5 fa-3x"></i><p>HTML5</p><div class="bar"><div class="fill" style="--width: 90%"></div></div></div>
+        <div class="skill"><i class="fa-brands fa-css3-alt fa-3x"></i><p>CSS3</p><div class="bar"><div class="fill" style="--width: 85%"></div></div></div>
+        <div class="skill"><i class="fa-brands fa-js fa-3x"></i><p>JavaScript</p><div class="bar"><div class="fill" style="--width: 80%"></div></div></div>
+        <div class="skill"><i class="fa-brands fa-react fa-3x"></i><p>React</p><div class="bar"><div class="fill" style="--width: 75%"></div></div></div>
+        <div class="skill"><i class="fa-solid fa-paintbrush fa-3x"></i><p>UI/UX</p><div class="bar"><div class="fill" style="--width: 88%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Projects Section ================== -->
+  <section id="projects">
+    <div class="container">
+      <h2>My Project</h2>
+      <div class="projects-grid">
+        <a 
+          href="https://codecipherx-web.github.io/to-do-app/Homepage.html" 
+          target="_blank" 
+          class="project-icon-card"
+        >
+          <i class="fa-solid fa-leaf fa-3x"></i>
+          <h3>Listify</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Timeline ================== -->
+  <section id="experience">
+    <div class="container">
+      <h2>My Journey</h2>
+      <div class="timeline">
+        <div class="event"><h3>2020</h3><p>Started learning HTML, CSS & JS.</p></div>
+        <div class="event"><h3>2021</h3><p>Built my first real-world project.</p></div>
+        <div class="event"><h3>2022</h3><p>Interned as a frontend developer.</p></div>
+        <div class="event"><h3>2023</h3><p>Freelanced and worked on client projects.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Testimonials ================== -->
+  <section id="testimonials">
+    <div class="container">
+      <h2>What People Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <p>"Amazing work! The website design was exactly what we wanted."</p>
+          <strong>- Client A</strong>
+        </div>
+        <div class="testimonial">
+          <p>"Very creative and professional. Highly recommended."</p>
+          <strong>- Client B</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Awards ================== -->
+  <section id="awards">
+    <div class="container">
+      <h2>Awards & Recognition</h2>
+      <div class="awards-container">
+        <div class="award"><i class="fas fa-trophy fa-2x"></i><h3>Top Dev Award</h3><p>2023</p></div>
+        <div class="award"><i class="fas fa-certificate fa-2x"></i><h3>Certified Pro</h3><p>2022</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Hire Section ================== -->
+  <section id="hire">
+    <div class="container">
+      <h2>Let's Work Together</h2>
+      <p>I'm open for freelance work, collaborations, and exciting opportunities.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- ================== CONTACT SECTION ================== -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <h2 class="contact-title">Get in Touch</h2>
+      <p class="contact-subtitle">
+        Have a question or want to collaborate? Fill the form below or reach out through my socials.
+      </p>
+
+      <form action="https://formspree.io/f/mnqewjvy" method="POST" class="contact-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="contact-btn">Send Message</button>
+      </form>
+
+      <div class="social-links">
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:someone@example.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Footer ================== -->
+  <footer>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>© 2025 Teddy Alvin. All rights reserved.</p>
+  </footer>
+
+  <!-- ================== Back-to-top Button ================== -->
+  <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- ================== JS ================== -->
+  <script src="script.js"></script>
+  <script>
+    // Typing Effect
+    const texts = ["Teddy Alvin", "a Frontend Developer", "a UI/UX Enthusiast"];
+    let index = 0, charIndex = 0;
+    const typingSpan = document.querySelector('.typing');
+
+    function type() {
+      if (charIndex < texts[index].length) {
+        typingSpan.textContent += texts[index].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 100);
+      } else {
+        setTimeout(erase, 1500);
+      }
+    }
+    function erase() {
+      if (charIndex > 0) {
+        typingSpan.textContent = texts[index].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, 50);
+      } else {
+        index = (index + 1) % texts.length;
+        setTimeout(type, 300);
+      }
+    }
+    document.addEventListener("DOMContentLoaded", type);
+  </script>
+
+</body>
+</html>
